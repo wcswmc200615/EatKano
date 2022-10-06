@@ -185,15 +185,15 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
 
     function gameInit() {
         createjs.Sound.registerSound({
-            src: "./static/music/err.mp3",
+            src: "./static/music/录音 (2).mp3",
             id: "err"
         });
         createjs.Sound.registerSound({
-            src: "./static/music/end.mp3",
+            src: "./static/music/录3.mp3",
             id: "end"
         });
         createjs.Sound.registerSound({
-            src: "./static/music/tap.mp3",
+            src: "./static/music/录音 (3.mp3",
             id: "tap"
         });
         gameRestart();
